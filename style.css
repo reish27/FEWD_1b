@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial;
+}
+
+header{
+    background-color: rgb(49, 47, 47);
+    color: white;
+    height:100px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body{
+    background-color:beige;
+}
+main{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#img{
+    height: auto;
+    border-radius: 50%;
+    max-width: 100%;
+}
+#img:hover{
+  animation: image 5s ease-in 0s infinite ;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    height:50px;
+}
+#about{
+    line-height: normal;
+}
+@keyframes image {
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
